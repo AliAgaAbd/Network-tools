@@ -1,6 +1,6 @@
 #!/bin/bash
 pkg update && pkg upgrade
-sudo apt updatw
+sudo apt update
 pkg install wget
 pkg install p7zip
 pkg install wget p7zip
