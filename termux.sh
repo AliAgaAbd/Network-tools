@@ -1,10 +1,8 @@
-#!/bin/bash
-pkg update
-pkg upgrade
-pkg install wget
-pkg install p7zip
-pkg install wget p7zip -y
-wget https://raw.githubusercontent.com/AliAgaAbd/Network-tools/refs/heads/main/linux-x64.7z -O /tmp/linux-x64.7z
-7z x /tmp/linux-x64.7z -o/tmp/
-cd /tmp/linux-x64 || exit
-./Program
+#!/data/data/com.termux/files/usr/bin/sh
+tpkg update && pkg install -y dotnet
+mkdir -p ~/cs_project && cd ~/cs_project
+curl -o Program.cs https://raw.githubusercontent.com/AliAgaAbd/Network-tools/refs/heads/main/Program.cs
+dotnet new console -o my_project --force
+mv Program.cs my_project/
+cd my_project
+dotnet run
