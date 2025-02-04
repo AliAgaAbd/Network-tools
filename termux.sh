@@ -13,3 +13,4 @@ fi
 mv Program.cs my_project/
 cd my_project || exit
 dotnet run
+echo "Started successfuly!"
