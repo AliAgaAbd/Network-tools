@@ -16,4 +16,4 @@ curl -L -o Program.cs "https://raw.githubusercontent.com/AliAgaAbd/Network-tools
 dotnet new console -o my_project --force
 mv Program.cs my_project/
 cd my_project || exit
-dotnet run
+dotnet run my_project
