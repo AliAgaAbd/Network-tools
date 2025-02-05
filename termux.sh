@@ -1,10 +1,12 @@
 #!/bin/bash
-pkg update -y && pkg upgrade -y
-pkg install -y wget curl
-wget https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb
-dpkg -i packages-microsoft-prod.deb
-apt update
-apt install -y dotnet-sdk-8.0
+sudo pacman -Syu --noconfirm
+sudo pacman -S --noconfirm wget curl
+wget https://packages.microsoft.com/config/archlinux/prod.packages.microsoft.com.key
+sudo pacman-key --add prod.packages.microsoft.com.key
+sudo pacman-key --finger F7A7E98B
+sudo pacman-key --lsign-key F7A7E98B
+echo -e "[microsoft]\nSigLevel = Optional TrustAll\nServer = https://packages.microsoft.com/repos/microsoft-archlinux" | sudo tee -a /etc/pacman.conf
+sudo pacman -Sy dotnet-sdk --noconfirm
 wget -O Program.cs "https://raw.githubusercontent.com/AliAgaAbd/Network-tools/main/Program.cs"
 dotnet new console -o my_project --force
 mv Program.cs my_project/
