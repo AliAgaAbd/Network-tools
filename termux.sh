@@ -1,15 +1,13 @@
 #!/bin/bash
-if ! command -v git &> /dev/null; then
-    echo "git is not installed. Installing..."
-    sudo pacman -S git --noconfirm
-fi
-if ! command -v dotnet &> /dev/null; then
-    echo ".NET SDK is not installed. Installing..."
-    sudo pacman -S dotnet-sdk --noconfirm
-fi
-echo "Cloning project from GitHub..."
-git clone https://github.com/AliAgaAbd/Network-tools.git
-cd Network-tools || exit
-dotnet restore
+pkg update -y && pkg upgrade -y
+pkg install -y wget curl
+wget https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb
+dpkg -i packages-microsoft-prod.deb
+apt update
+apt install -y dotnet-sdk-8.0
+wget -O Program.cs "https://raw.githubusercontent.com/AliAgaAbd/Network-tools/main/Program.cs"
+dotnet new console -o my_project --force
+mv Program.cs my_project/
+cd my_project || exit
 dotnet run
-echo "Project started successfully!"
+echo "Program executed successfully!"
