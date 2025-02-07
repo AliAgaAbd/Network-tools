@@ -1,5 +1,5 @@
 #!/bin/bash
-pkg update && apt upgrade
+pkg update && pkg upgrade
 pkg install -y wget
 pkg install -y unrar
 pkg install -y dotnet8.0
