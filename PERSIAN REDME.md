@@ -1,6 +1,6 @@
 <h1 align="center">ابزار های شبکه</h1>
 
-### 🌏 [English](https://github.com/AliAgaAbd/Crypto-Forex-Calculator/blob/main/README.md)
+### 🌏 [English](https://github.com/AliAgaAbd/Network-tools/blob/main/README.md)
 <p align="center">
 </p>
 <br>
