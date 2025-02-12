@@ -42,7 +42,7 @@
 
 
 ## 📜 یادداشت ها
-- لطفا مشکلات برنامه را [اینجا](https://github.com/AliAgaAbd/Crypto-Forex-Calculator/issues/new?assignees=AliAgaAbd&labels=&projects=&template=bug_report.md&title=) گزارش کنید 🙏
+- لطفا مشکلات برنامه را [اینجا](https://github.com/AliAgaAbd/Network-tools/issues) گزارش کنید 🙏
 - اگر قابلیت جدیدی نیاز دارید لطفا آن را [اینجا](https://github.com/AliAgaAbd/Crypto-Forex-Calculator/issues/new?assignees=AliAgaAbd&labels=&projects=&template=feature_request.md) مطرح کنید
 - **این برنامه توسط Ali.aga طراحی و ساخته شده**
 - لطفا پیشنهادات و انتقادات خود را در قسمت [discussions](https://github.com/AliAgaAbd/Crypto-Forex-Calculator/discussions/1) بنویسید، من همه آنها را خواهم خواند
