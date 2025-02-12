@@ -54,7 +54,6 @@
 <p align="center">
 </p>
 
-
 ## 📜 یادداشت ها
 - لطفا مشکلات برنامه را [اینجا](https://github.com/AliAgaAbd/Network-tools/issues) گزارش کنید 🙏
 - اگر قابلیت جدیدی نیاز دارید لطفا آن را [اینجا](https://github.com/AliAgaAbd/Network-tools/issues/new?template=feature_request.md) مطرح کنید
