@@ -1,6 +1,6 @@
 <h1 align="center">Network tools</h1>
 
-### 🌏 [فارسی](https://github.com/AliAgaAbd/Crypto-Forex-Calculator/blob/main/PERSIAN%20README.md)
+### 🌏 [فارسی](https://github.com/AliAgaAbd/Network-tools/blob/main/PERSIAN%20REDME.md)
 <p align="center">
 </p>
 <br>
