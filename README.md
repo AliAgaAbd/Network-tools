@@ -32,13 +32,11 @@
 - MacOS **x64**,**arm64**
 - Linux **x64**,**arm64**,**arm**
 ![212284100-561aa473-3905-4a80-b561-0d28506553ee](https://github.com/mansor427/IpScanner/assets/104245967/b09437c5-ffbc-49b9-ab64-fd138739dd66)
-<br>
 ## ‼️requirements‼️
 - For the portable version you should download the microsoft .NET 8.0 from [here](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) and install it.
 - The other versions are self-contained and you don't want to install .NET 8.0 on your computer.
 - For extracting files you should download and install [WinRAR](https://soft98.ir/software/compress/21-winrar-full.html).
 ![212284100-561aa473-3905-4a80-b561-0d28506553ee](https://github.com/mansor427/IpScanner/assets/104245967/b09437c5-ffbc-49b9-ab64-fd138739dd66)
-<br>
 
 <p align="center">
    
