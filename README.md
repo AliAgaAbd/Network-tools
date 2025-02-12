@@ -44,6 +44,6 @@
 - Please report buges in [issues](https://github.com/AliAgaAbd/Network-tools/issues) section 🙏
 - If you need a new feature, Please request it [here](https://github.com/AliAgaAbd/Network-tools/issues/new?template=feature_request.md)
 - **This program is created and designed by Ali.aga**
-- Please let us know if you have any suggestions or criticisms in [discussions](https://github.com/AliAgaAbd/Crypto-Forex-Calculator/discussions/1) section, i'll read all of them.
+- Please let us know if you have any suggestions or criticisms in [discussions](https://github.com/AliAgaAbd/Network-tools/discussions) section, i'll read all of them.
 - Thanks for choosing us!
 <br>
