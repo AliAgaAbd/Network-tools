@@ -6,6 +6,7 @@
 <br>
 
 ## ⭐ This is the 1st release (V1.0.0)
+
 - Ping
 - Server Uptime
 - Network overall status
@@ -13,6 +14,7 @@
 - Theme selection
 - Help section
 - Delete all files created by program
+- 
 ## 📥 How to use this program?
 - First, Download the latest version from realeses section according to your OS and proccessor
 - Next, open the (Program) file
@@ -25,20 +27,17 @@
 - Linux **x64**,**arm64**,**arm**
 <br>
 
-
 ## ‼️requirements‼️
 - For the portable version you should download the microsoft .NET 8.0 from [here](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) and install it.
 - The other versions are self-contained and you don't want to install .NET 8.0 on your computer.
 - For extracting files you should download and install [WinRAR](https://soft98.ir/software/compress/21-winrar-full.html).
 <br>
 
-
 <p align="center">
 </p>
 
 <p align="center">
 </p>
-
 
 ## 📜 Notes
 - Please report buges in [issues](https://github.com/AliAgaAbd/Network-tools/issues) section 🙏
